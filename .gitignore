@@ -1,0 +1,10 @@
+.DS_Store
+.git
+.env
+node_modules/
+Banner_pic/
+Logo/
+New folder/
+Source/
+Deploy.txt
+Figma_designe.txt
