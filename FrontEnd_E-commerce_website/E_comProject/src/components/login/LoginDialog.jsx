@@ -969,9 +969,11 @@ const LoginDialog = ({ open, setOpen }) => {
                                         )
                                     }}
                                     sx={{
-                                        '& .MuiInputBase-root': { height: 35, fontSize: '13px' },
-                                        '& input::placeholder': { fontSize: '12px' }
-                                    }}
+                                            '& .MuiInputBase-root': { 
+                                                fontSize: '13px'   
+                                            },
+                                            '& input::placeholder': { fontSize: '12px' }
+                                        }}
                                 />
  
                                 {/* Checkboxes */}
@@ -1055,9 +1057,12 @@ const LoginDialog = ({ open, setOpen }) => {
                                         )
                                     }}
                                     sx={{
-                                        '& .MuiInputBase-root': { height: 35, width: "100%", fontSize: '13px' },
-                                        '& input::placeholder': { fontSize: '12px' }
-                                    }}
+                                            '& .MuiInputBase-root': { 
+                                                fontSize: '13px',   
+                                                width: "100%"
+                                            },
+                                            '& input::placeholder': { fontSize: '12px' }
+                                        }}
                                 />
  
                                 <Button
