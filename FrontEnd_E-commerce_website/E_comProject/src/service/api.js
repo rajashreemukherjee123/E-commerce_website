@@ -36,16 +36,6 @@ export const authenticatesLogin = async(data)=>{
 }
 
 
-///-------------------- buy now --------------------------------
-// export const payUsingPaytm = async(data) => {
-//     try{
-//         let response = await axios.post( `${URL}/payment`,data);
-//         return response.data;
-//     }catch(err){
-//         console.log('Error while calling Payment Api',err);
-//     }
-// }
-
 
 //--------------------- Razorpay: Order Create --------------
 export const createRazorpayOrder = async (amount) => {

@@ -5,23 +5,7 @@ import {styled} from '@mui/material/styles'
 
 import { NavLink } from 'react-router-dom'
 
-// const ButtonCastom = styled(Box)`
-//     display: flex;
-//     gap: 32px;
-//     align-items: center;
 
-//     & > p { 
-//         cursor: pointer;
-        
-//         font-weight: 500;
-//         font-size: 14px; 
-//         white-space: nowrap;
-//         transition: all 0.2s ease-in-out;
-//     }
-//     & > p:hover {
-//         color: #8f72f7; 
-//     }
-// `;
 
 const ButtonCastom = styled(Box)(({ theme, mobileView }) => ({
     display: 'flex',

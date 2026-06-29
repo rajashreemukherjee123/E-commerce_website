@@ -50,19 +50,7 @@ const InputSearchBase = styled(InputBase)`
     }
 `;
 
-// const SearchIconWrapper = styled(Box)`
-//     opacity: 0.5;
-//     width: 100%;
-//     border-radius: 8px;
-//     margin-left: 0;   
-//     display: flex;
-//     align-items: center;
-//     height: 40px;
-//     // margin-left: 10%;
-    
-    
 
-// `;
 
 const ListWrapper = styled(List)`
     position : absolute;
@@ -91,9 +79,9 @@ const Search = () => {
 
   return (      
     <SearchContainer>
-        {/* <SearchIconWrapper> */}
+        
             <SearchIcon sx={{ fontSize: 18, opacity: 0.4 }}/>
-        {/* </SearchIconWrapper> */}
+        
         <InputSearchBase 
             placeholder='Search'
             value={text}

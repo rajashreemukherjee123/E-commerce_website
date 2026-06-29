@@ -12,17 +12,14 @@ import { getProducts} from '../../redux/actions/productAction';
 import { useDispatch, useSelector } from 'react-redux';
 
 
-// const Component = styled(Box)`
-//     padding 20px 10px;
-// `;
+
 
 const Home = () => {
 
   const {products, loading} = useSelector(state => state.getProducts)
-  // const {products} = getProducts; //getProducts.products
+  
   console.log(products);
 
-  // { products: [{},{},{}]}
 
   const dispatch = useDispatch();
 

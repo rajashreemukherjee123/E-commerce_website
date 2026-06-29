@@ -25,7 +25,7 @@ const useRazorpay = () => {
                     });
 
                     if (verifyData && verifyData.success) {
-                        // FIX: payment success hole cart clear koro
+                        
                         await clearCartApi();
                         onSuccess && onSuccess(verifyData.paymentId);
                     } else {

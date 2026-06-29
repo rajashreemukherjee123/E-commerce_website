@@ -19,8 +19,7 @@ export const getProducts = ()=> async(dispatch)=>{
        dispatch({ type: actionTypes.GET_PRODUCTS_SUCCESS, payload: data})
 
     }catch(err){
-        // console.log("Error while calling getProducts api",err.message);
-        ///////
+        
         console.log(" ERROR:", err.message); //
         dispatch({type: actionTypes.GET_PRODUCTS_FAIL, payload: err.message})
     }

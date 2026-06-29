@@ -1,4 +1,4 @@
-// import React from 'react'
+
 import './App.css';
 import {Box} from '@mui/material'
 ////////////////
@@ -14,7 +14,7 @@ import Home from './components/home/Home'
 import DetailView from './components/details/DetailView';
 import Cart from './components/cart/Cart';
 
-// import DataProvider from './context/DataProvider'
+
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -35,12 +35,12 @@ const App = () => {
                 const currentTime = Date.now() / 1000;
 
                 if (decodedToken.exp < currentTime) {
-                    // 1 ghonta hoye geche - Logout logic
+                    
                     localStorage.removeItem('token');
                     localStorage.removeItem('userName');
                     setAccount('');
                 } else {
-                    // Token ekhono valid - UI state restore koro
+                    
                     setAccount(userName);
                     dispatch({
                         type: USER_LOGIN_SUCCESS,
@@ -59,7 +59,7 @@ const App = () => {
 
 
   return (
-    // <DataProvider>
+    
       <BrowserRouter>
         <Header/>
         <Box style= {{marginTop:75}}>
@@ -69,12 +69,12 @@ const App = () => {
             <Route path='/cart' element={<Cart/>} />
 
             {/*  */}
-            <Route path="/success" element={<h2>Payment Successful! 🎉</h2>} />
+            <Route path="/success" element={<h2>Payment Successful! </h2>} />
             <Route path="/failure" element={<h2>Payment Failed. Please try again.</h2>} />
           </Routes>
         </Box>
       </BrowserRouter>
-    // </DataProvider>
+    
   )
 }
 

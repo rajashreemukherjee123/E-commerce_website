@@ -7,13 +7,6 @@ export const DataContext = createContext(null);
 const DataProvider = ({children})=>{
     const [account,setAccount] = useState("")
     
-    // useEffect(()=>{
-    //     const storedUser = localStorage.getItem("userName");
-    //     if(storedUser){
-    //         setAccount(storedUser);
-    //     }
-    // },[]);
-
 
     return(
 

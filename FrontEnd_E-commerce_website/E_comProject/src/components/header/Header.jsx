@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { AppBar, Toolbar,IconButton, Box, Drawer, List,Divider, ListItem, styled } from '@mui/material';
 import OneStop_Logo from '../../assets/OneStop_Logo.png';
-// import Logo2 from '../../assets/Logo2.png';
+
 
 //conponents
 import CastomButtons from './CastomButtons';

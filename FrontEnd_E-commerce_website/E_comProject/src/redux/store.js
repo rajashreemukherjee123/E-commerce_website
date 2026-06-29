@@ -15,20 +15,12 @@ const reducer = combineReducers({
     getProductDetails: getProductDetailsReducer,
     cart: cartReducer
 });
-//////
-// const userInfoFromStorage = localStorage.getItem("userInfo")
-//     ? JSON.parse(localStorage.getItem("userInfo"))
-//     : null;
 
 const tokenFromStorage = localStorage.getItem("token");
 
 const nameFromStorage = localStorage.getItem("userName");
 
-// const initialState = {
-//     userLogin: {
-//         userInfo: userInfoFromStorage
-//     }
-// };
+
 const initialState = {
    userLogin: {
       userInfo: tokenFromStorage

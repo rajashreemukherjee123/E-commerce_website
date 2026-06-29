@@ -12,9 +12,3 @@ export const imageURL = [
     'https://rukminim1.flixcart.com/flap/960/960/image/1ce0c4c1fb501b45.jpg?q=50'
 ];
 
-// export const bannerData = [
-//     { id: 1, url: 'https://picsum.photos/id/1/1200/400' },
-//     { id: 2, url: 'https://picsum.photos/id/10/1200/400' },
-//     { id: 3, url: 'https://picsum.photos/id/20/1200/400' },
-//     { id: 4, url: 'https://picsum.photos/id/30/1200/400' }
-// ]

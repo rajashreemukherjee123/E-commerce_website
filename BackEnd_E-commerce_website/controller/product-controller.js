@@ -27,20 +27,5 @@ const getProductById = async(req,res)=>{
 }
 
 
-// // add To Cart
-// const addToCart = async(req,res)=>{
-//     try{
-//         let productObj = await product.find({userId : req.user.user_id}).populate("userId","name")
-        
-//         if(productObj.length == 0){
-//             return res.status(404).json({message:"No product found"});
-//         }else{
-//             res.status(200).json(productObj);
-//         }
-    
-//     }catch(err){
-//         res.status(500).json({message: err.message})
-//     }
-// }
 
 module.exports = {getProducts, getProductById};
