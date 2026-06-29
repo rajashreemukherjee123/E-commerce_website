@@ -4,6 +4,10 @@ A full-stack e-commerce web application built using the **MERN Stack** (MongoDB,
 
 ---
 
+🚀 Live Demo
+
+Live Website: https://e-commerce-frontend-98ck.onrender.com/
+
 ## ✨ Key Features (Implemented So Far)
 
 - **Secure Authentication:** User login and logout system powered securely by **JWT (JSON Web Tokens)**.
