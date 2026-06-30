@@ -53,4 +53,4 @@ Follow these steps to run the project locally on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/rajashreemukherjee123/E-commerce_website.git
+  https://github.com/rajashreemukherjee123/E-commerce_website.git
